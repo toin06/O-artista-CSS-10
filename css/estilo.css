@@ -1,33 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
 
+
+p {
+  font-size: 94%;
+  justify-content: right;
+}
+
 body {
   font-family: 'Poppins';
 }
 
 header {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-#menu {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #logo {
-    height: 100px;
+  height: 120px;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
 
 .link-menu {
   color: #fff;
   background-color: #555;
   text-decoration: none;
-  margin: 20px;
-  padding: 10px;
-  border-radius: 7px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 6px;
 }
 
 #principal {
@@ -36,32 +42,59 @@ header {
   justify-content: space-evenly;
   height: 600px;
   align-items: center;
+  gap: 50px;
+}
+figure{
+  margin: 0px;
 }
 
-#sec_ctd p{
-  width: 450px;
-  text-align: justify;
+figure img{
+  width: 270px;
 }
 
 #sec_ctd h1{
+  width: 550px;
   text-align: right;
   font-size: xx-large;
 }
 
-figure img{
-  height: 450px;
+#sec_ctd p{
+  width: 500px;
+  text-align: justify;
+}
+
+#especial#sec_ctd#sinopse p {
+  width: 350px;
+  text-align: justify;
 }
 
 #second {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  margin: 30px;
+  justify-content: center;
+  margin: 100px auto;
+  gap: 50px;
 }
 
 .cartaz img{
-  width: 300px;
+  width: 250px;
+}
+
+#contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+}
+
+#email a{
+  color: white;
+  text-decoration: none;
+}
+
+#social a img {
+  height: 25px;
 }
 
 .f {
@@ -79,6 +112,10 @@ figure img{
 main {
   background-color: #333;
   color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 h1, h2 {
@@ -92,24 +129,6 @@ h1, h2 {
 footer {
   background-color: #333;
   color: #ddd;
-  height: 60px;
-}
-
-#contato {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  height: 60px;
-}
-
-#email a{
-  color: white;
-  text-decoration: none;
-}
-
-#social a img {
-  height: 40px;
 }
 
 #acesso {
@@ -118,11 +137,21 @@ footer {
   text-align: center;
   font-family: 'Amatic SC';
   font-size: large;
+  height: 60px;
 }
 
 #acesso a {
   text-decoration: none;
-  margin: 10px;
+  margin: 20px;
+  
+}
+
+#acesso.m{
+  display: flex;
+  align-items: center;
+}
+#acesso.m a img{
+  width: 40px;
 }
 
 .l {
@@ -135,3 +164,4 @@ footer {
   width: 600px;
   padding: 10px;
 }
+
